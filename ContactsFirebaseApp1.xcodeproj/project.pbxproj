@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3B4FB184680273B7EC5C12A /* Pods_ContactsFirebaseApp1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3C5532B366DBA8D87FD81C /* Pods_ContactsFirebaseApp1Tests.framework */; };
+		B7139163446E97488A5B8AFB /* Pods_ContactsFirebaseApp1_ContactsFirebaseApp1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3331AE9BC4D2477C7B015D3 /* Pods_ContactsFirebaseApp1_ContactsFirebaseApp1UITests.framework */; };
+		CCDDD899C9AB259D04520138 /* Pods_ContactsFirebaseApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BBC719421D0EF22603FCBE /* Pods_ContactsFirebaseApp1.framework */; };
+		FA5E9EA226AC049E00AE4F20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EA126AC049E00AE4F20 /* AppDelegate.m */; };
+		FA5E9EA526AC049E00AE4F20 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EA426AC049E00AE4F20 /* SceneDelegate.m */; };
+		FA5E9EAB26AC049E00AE4F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5E9EA926AC049E00AE4F20 /* Main.storyboard */; };
+		FA5E9EAD26AC049F00AE4F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5E9EAC26AC049F00AE4F20 /* Assets.xcassets */; };
+		FA5E9EB026AC049F00AE4F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5E9EAE26AC049F00AE4F20 /* LaunchScreen.storyboard */; };
+		FA5E9EB326AC049F00AE4F20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EB226AC049F00AE4F20 /* main.m */; };
+		FA5E9EBD26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EBC26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m */; };
+		FA5E9EC826AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EC726AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m */; };
+		FA5E9ED626AC090B00AE4F20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5E9ED526AC090B00AE4F20 /* GoogleService-Info.plist */; };
+		FA5E9ED926AC141300AE4F20 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9ED826AC141300AE4F20 /* Contact.m */; };
+		FA5E9EDC26AC1F0300AE4F20 /* FirestoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EDB26AC1F0300AE4F20 /* FirestoreService.m */; };
+		FAB482EB26AD2DC5009E955B /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB482EA26AD2DC5009E955B /* ContactsTableViewController.m */; };
+		FAB482EE26AD7FDD009E955B /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB482ED26AD7FDD009E955B /* ContactTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5E9EB926AC049F00AE4F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5E9E9526AC049E00AE4F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5E9E9C26AC049E00AE4F20;
+			remoteInfo = ContactsFirebaseApp1;
+		};
+		FA5E9EC426AC049F00AE4F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5E9E9526AC049E00AE4F20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5E9E9C26AC049E00AE4F20;
+			remoteInfo = ContactsFirebaseApp1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051C1D3E2DA471D5D0C26DCF /* Pods-ContactsFirebaseApp1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsFirebaseApp1Tests.release.xcconfig"; path = "Target Support Files/Pods-ContactsFirebaseApp1Tests/Pods-ContactsFirebaseApp1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		08BBC719421D0EF22603FCBE /* Pods_ContactsFirebaseApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsFirebaseApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F620093E80E8A58553B0519 /* Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.release.xcconfig"; path = "Target Support Files/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CF4D78648571119DF61E1E2 /* Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.debug.xcconfig"; path = "Target Support Files/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52359C1C57207FDC157C2760 /* Pods-ContactsFirebaseApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsFirebaseApp1.release.xcconfig"; path = "Target Support Files/Pods-ContactsFirebaseApp1/Pods-ContactsFirebaseApp1.release.xcconfig"; sourceTree = "<group>"; };
+		A3331AE9BC4D2477C7B015D3 /* Pods_ContactsFirebaseApp1_ContactsFirebaseApp1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsFirebaseApp1_ContactsFirebaseApp1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C6031C049CA22207AF193A /* Pods-ContactsFirebaseApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsFirebaseApp1.debug.xcconfig"; path = "Target Support Files/Pods-ContactsFirebaseApp1/Pods-ContactsFirebaseApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		D075000D8F666639FCA264A1 /* Pods-ContactsFirebaseApp1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsFirebaseApp1Tests.debug.xcconfig"; path = "Target Support Files/Pods-ContactsFirebaseApp1Tests/Pods-ContactsFirebaseApp1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA5E9E9D26AC049E00AE4F20 /* ContactsFirebaseApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsFirebaseApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E9EA026AC049E00AE4F20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA5E9EA126AC049E00AE4F20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA5E9EA326AC049E00AE4F20 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FA5E9EA426AC049E00AE4F20 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FA5E9EAA26AC049E00AE4F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5E9EAC26AC049F00AE4F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5E9EAF26AC049F00AE4F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5E9EB126AC049F00AE4F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5E9EB226AC049F00AE4F20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA5E9EB826AC049F00AE4F20 /* ContactsFirebaseApp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsFirebaseApp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E9EBC26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsFirebaseApp1Tests.m; sourceTree = "<group>"; };
+		FA5E9EBE26AC049F00AE4F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5E9EC326AC049F00AE4F20 /* ContactsFirebaseApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsFirebaseApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5E9EC726AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsFirebaseApp1UITests.m; sourceTree = "<group>"; };
+		FA5E9EC926AC049F00AE4F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5E9ED526AC090B00AE4F20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../new/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA5E9ED726AC141300AE4F20 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		FA5E9ED826AC141300AE4F20 /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		FA5E9EDA26AC1F0300AE4F20 /* FirestoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirestoreService.h; sourceTree = "<group>"; };
+		FA5E9EDB26AC1F0300AE4F20 /* FirestoreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirestoreService.m; sourceTree = "<group>"; };
+		FAB482E926AD2DC5009E955B /* ContactsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		FAB482EA26AD2DC5009E955B /* ContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
+		FAB482EC26AD7FDD009E955B /* ContactTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		FAB482ED26AD7FDD009E955B /* ContactTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		FE3C5532B366DBA8D87FD81C /* Pods_ContactsFirebaseApp1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsFirebaseApp1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5E9E9A26AC049E00AE4F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDDD899C9AB259D04520138 /* Pods_ContactsFirebaseApp1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E9EB526AC049F00AE4F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B4FB184680273B7EC5C12A /* Pods_ContactsFirebaseApp1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E9EC026AC049F00AE4F20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7139163446E97488A5B8AFB /* Pods_ContactsFirebaseApp1_ContactsFirebaseApp1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E2404564A6856C04BB950E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BBC719421D0EF22603FCBE /* Pods_ContactsFirebaseApp1.framework */,
+				A3331AE9BC4D2477C7B015D3 /* Pods_ContactsFirebaseApp1_ContactsFirebaseApp1UITests.framework */,
+				FE3C5532B366DBA8D87FD81C /* Pods_ContactsFirebaseApp1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807540A62FF7731780C456D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0C6031C049CA22207AF193A /* Pods-ContactsFirebaseApp1.debug.xcconfig */,
+				52359C1C57207FDC157C2760 /* Pods-ContactsFirebaseApp1.release.xcconfig */,
+				2CF4D78648571119DF61E1E2 /* Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.debug.xcconfig */,
+				1F620093E80E8A58553B0519 /* Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.release.xcconfig */,
+				D075000D8F666639FCA264A1 /* Pods-ContactsFirebaseApp1Tests.debug.xcconfig */,
+				051C1D3E2DA471D5D0C26DCF /* Pods-ContactsFirebaseApp1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA5E9E9426AC049E00AE4F20 = {
+			isa = PBXGroup;
+			children = (
+				FA5E9E9F26AC049E00AE4F20 /* ContactsFirebaseApp1 */,
+				FA5E9EBB26AC049F00AE4F20 /* ContactsFirebaseApp1Tests */,
+				FA5E9EC626AC049F00AE4F20 /* ContactsFirebaseApp1UITests */,
+				FA5E9E9E26AC049E00AE4F20 /* Products */,
+				807540A62FF7731780C456D2 /* Pods */,
+				47E2404564A6856C04BB950E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5E9E9E26AC049E00AE4F20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E9E9D26AC049E00AE4F20 /* ContactsFirebaseApp1.app */,
+				FA5E9EB826AC049F00AE4F20 /* ContactsFirebaseApp1Tests.xctest */,
+				FA5E9EC326AC049F00AE4F20 /* ContactsFirebaseApp1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5E9E9F26AC049E00AE4F20 /* ContactsFirebaseApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E9ED526AC090B00AE4F20 /* GoogleService-Info.plist */,
+				FA5E9EA026AC049E00AE4F20 /* AppDelegate.h */,
+				FA5E9EA126AC049E00AE4F20 /* AppDelegate.m */,
+				FA5E9EA326AC049E00AE4F20 /* SceneDelegate.h */,
+				FA5E9EA426AC049E00AE4F20 /* SceneDelegate.m */,
+				FA5E9EA926AC049E00AE4F20 /* Main.storyboard */,
+				FA5E9EAC26AC049F00AE4F20 /* Assets.xcassets */,
+				FA5E9EAE26AC049F00AE4F20 /* LaunchScreen.storyboard */,
+				FA5E9EB126AC049F00AE4F20 /* Info.plist */,
+				FA5E9EB226AC049F00AE4F20 /* main.m */,
+				FA5E9ED726AC141300AE4F20 /* Contact.h */,
+				FA5E9ED826AC141300AE4F20 /* Contact.m */,
+				FA5E9EDA26AC1F0300AE4F20 /* FirestoreService.h */,
+				FA5E9EDB26AC1F0300AE4F20 /* FirestoreService.m */,
+				FAB482E926AD2DC5009E955B /* ContactsTableViewController.h */,
+				FAB482EA26AD2DC5009E955B /* ContactsTableViewController.m */,
+				FAB482EC26AD7FDD009E955B /* ContactTableViewCell.h */,
+				FAB482ED26AD7FDD009E955B /* ContactTableViewCell.m */,
+			);
+			path = ContactsFirebaseApp1;
+			sourceTree = "<group>";
+		};
+		FA5E9EBB26AC049F00AE4F20 /* ContactsFirebaseApp1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E9EBC26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m */,
+				FA5E9EBE26AC049F00AE4F20 /* Info.plist */,
+			);
+			path = ContactsFirebaseApp1Tests;
+			sourceTree = "<group>";
+		};
+		FA5E9EC626AC049F00AE4F20 /* ContactsFirebaseApp1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5E9EC726AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m */,
+				FA5E9EC926AC049F00AE4F20 /* Info.plist */,
+			);
+			path = ContactsFirebaseApp1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5E9E9C26AC049E00AE4F20 /* ContactsFirebaseApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5E9ECC26AC049F00AE4F20 /* Build configuration list for PBXNativeTarget "ContactsFirebaseApp1" */;
+			buildPhases = (
+				F32B33BB1793015573686D36 /* [CP] Check Pods Manifest.lock */,
+				FA5E9E9926AC049E00AE4F20 /* Sources */,
+				FA5E9E9A26AC049E00AE4F20 /* Frameworks */,
+				FA5E9E9B26AC049E00AE4F20 /* Resources */,
+				25CC13909741EC1B183F7CA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactsFirebaseApp1;
+			productName = ContactsFirebaseApp1;
+			productReference = FA5E9E9D26AC049E00AE4F20 /* ContactsFirebaseApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5E9EB726AC049F00AE4F20 /* ContactsFirebaseApp1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5E9ECF26AC049F00AE4F20 /* Build configuration list for PBXNativeTarget "ContactsFirebaseApp1Tests" */;
+			buildPhases = (
+				0DDE25330FAA719877CBEA7F /* [CP] Check Pods Manifest.lock */,
+				FA5E9EB426AC049F00AE4F20 /* Sources */,
+				FA5E9EB526AC049F00AE4F20 /* Frameworks */,
+				FA5E9EB626AC049F00AE4F20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5E9EBA26AC049F00AE4F20 /* PBXTargetDependency */,
+			);
+			name = ContactsFirebaseApp1Tests;
+			productName = ContactsFirebaseApp1Tests;
+			productReference = FA5E9EB826AC049F00AE4F20 /* ContactsFirebaseApp1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5E9EC226AC049F00AE4F20 /* ContactsFirebaseApp1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5E9ED226AC049F00AE4F20 /* Build configuration list for PBXNativeTarget "ContactsFirebaseApp1UITests" */;
+			buildPhases = (
+				46E9CBBF0E8C2469AF193B04 /* [CP] Check Pods Manifest.lock */,
+				FA5E9EBF26AC049F00AE4F20 /* Sources */,
+				FA5E9EC026AC049F00AE4F20 /* Frameworks */,
+				FA5E9EC126AC049F00AE4F20 /* Resources */,
+				3AA600C26E1D3285D5FE3145 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5E9EC526AC049F00AE4F20 /* PBXTargetDependency */,
+			);
+			name = ContactsFirebaseApp1UITests;
+			productName = ContactsFirebaseApp1UITests;
+			productReference = FA5E9EC326AC049F00AE4F20 /* ContactsFirebaseApp1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5E9E9526AC049E00AE4F20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA5E9E9C26AC049E00AE4F20 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FA5E9EB726AC049F00AE4F20 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA5E9E9C26AC049E00AE4F20;
+					};
+					FA5E9EC226AC049F00AE4F20 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA5E9E9C26AC049E00AE4F20;
+					};
+				};
+			};
+			buildConfigurationList = FA5E9E9826AC049E00AE4F20 /* Build configuration list for PBXProject "ContactsFirebaseApp1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5E9E9426AC049E00AE4F20;
+			productRefGroup = FA5E9E9E26AC049E00AE4F20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5E9E9C26AC049E00AE4F20 /* ContactsFirebaseApp1 */,
+				FA5E9EB726AC049F00AE4F20 /* ContactsFirebaseApp1Tests */,
+				FA5E9EC226AC049F00AE4F20 /* ContactsFirebaseApp1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5E9E9B26AC049E00AE4F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5E9EB026AC049F00AE4F20 /* LaunchScreen.storyboard in Resources */,
+				FA5E9ED626AC090B00AE4F20 /* GoogleService-Info.plist in Resources */,
+				FA5E9EAD26AC049F00AE4F20 /* Assets.xcassets in Resources */,
+				FA5E9EAB26AC049E00AE4F20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E9EB626AC049F00AE4F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E9EC126AC049F00AE4F20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DDE25330FAA719877CBEA7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsFirebaseApp1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25CC13909741EC1B183F7CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsFirebaseApp1/Pods-ContactsFirebaseApp1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsFirebaseApp1/Pods-ContactsFirebaseApp1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactsFirebaseApp1/Pods-ContactsFirebaseApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AA600C26E1D3285D5FE3145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46E9CBBF0E8C2469AF193B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32B33BB1793015573686D36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsFirebaseApp1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5E9E9926AC049E00AE4F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5E9EA226AC049E00AE4F20 /* AppDelegate.m in Sources */,
+				FA5E9ED926AC141300AE4F20 /* Contact.m in Sources */,
+				FAB482EE26AD7FDD009E955B /* ContactTableViewCell.m in Sources */,
+				FAB482EB26AD2DC5009E955B /* ContactsTableViewController.m in Sources */,
+				FA5E9EB326AC049F00AE4F20 /* main.m in Sources */,
+				FA5E9EA526AC049E00AE4F20 /* SceneDelegate.m in Sources */,
+				FA5E9EDC26AC1F0300AE4F20 /* FirestoreService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E9EB426AC049F00AE4F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5E9EBD26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E9EBF26AC049F00AE4F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5E9EC826AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5E9EBA26AC049F00AE4F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5E9E9C26AC049E00AE4F20 /* ContactsFirebaseApp1 */;
+			targetProxy = FA5E9EB926AC049F00AE4F20 /* PBXContainerItemProxy */;
+		};
+		FA5E9EC526AC049F00AE4F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5E9E9C26AC049E00AE4F20 /* ContactsFirebaseApp1 */;
+			targetProxy = FA5E9EC426AC049F00AE4F20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5E9EA926AC049E00AE4F20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5E9EAA26AC049E00AE4F20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5E9EAE26AC049F00AE4F20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5E9EAF26AC049F00AE4F20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5E9ECA26AC049F00AE4F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA5E9ECB26AC049F00AE4F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5E9ECD26AC049F00AE4F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C6031C049CA22207AF193A /* Pods-ContactsFirebaseApp1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContactsFirebaseApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueradix.tutorial.ContactsFirebaseApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5E9ECE26AC049F00AE4F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52359C1C57207FDC157C2760 /* Pods-ContactsFirebaseApp1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContactsFirebaseApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueradix.tutorial.ContactsFirebaseApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA5E9ED026AC049F00AE4F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D075000D8F666639FCA264A1 /* Pods-ContactsFirebaseApp1Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContactsFirebaseApp1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueradix.tutorial.ContactsFirebaseApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsFirebaseApp1.app/ContactsFirebaseApp1";
+			};
+			name = Debug;
+		};
+		FA5E9ED126AC049F00AE4F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051C1D3E2DA471D5D0C26DCF /* Pods-ContactsFirebaseApp1Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContactsFirebaseApp1Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueradix.tutorial.ContactsFirebaseApp1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsFirebaseApp1.app/ContactsFirebaseApp1";
+			};
+			name = Release;
+		};
+		FA5E9ED326AC049F00AE4F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF4D78648571119DF61E1E2 /* Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContactsFirebaseApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueradix.tutorial.ContactsFirebaseApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactsFirebaseApp1;
+			};
+			name = Debug;
+		};
+		FA5E9ED426AC049F00AE4F20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F620093E80E8A58553B0519 /* Pods-ContactsFirebaseApp1-ContactsFirebaseApp1UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ContactsFirebaseApp1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueradix.tutorial.ContactsFirebaseApp1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactsFirebaseApp1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5E9E9826AC049E00AE4F20 /* Build configuration list for PBXProject "ContactsFirebaseApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5E9ECA26AC049F00AE4F20 /* Debug */,
+				FA5E9ECB26AC049F00AE4F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5E9ECC26AC049F00AE4F20 /* Build configuration list for PBXNativeTarget "ContactsFirebaseApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5E9ECD26AC049F00AE4F20 /* Debug */,
+				FA5E9ECE26AC049F00AE4F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5E9ECF26AC049F00AE4F20 /* Build configuration list for PBXNativeTarget "ContactsFirebaseApp1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5E9ED026AC049F00AE4F20 /* Debug */,
+				FA5E9ED126AC049F00AE4F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5E9ED226AC049F00AE4F20 /* Build configuration list for PBXNativeTarget "ContactsFirebaseApp1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5E9ED326AC049F00AE4F20 /* Debug */,
+				FA5E9ED426AC049F00AE4F20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5E9E9526AC049E00AE4F20 /* Project object */;
+}

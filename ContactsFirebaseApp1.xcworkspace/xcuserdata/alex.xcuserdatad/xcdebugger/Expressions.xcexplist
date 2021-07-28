@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[FirestoreService findContactById:]:FirestoreService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self firestore]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ContactsTableViewController viewDidLoad]:ContactsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self contactsArray]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController viewDidLoad]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ContactsTableViewController tableView:cellForRowAtIndexPath:]:ContactsTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "[contactsDictionary allValues][0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__36-[FirestoreService findContactById:]_block_invoke:FirestoreService.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[snapshot exists]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
