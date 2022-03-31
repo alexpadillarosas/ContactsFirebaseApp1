@@ -18,11 +18,11 @@
 		FA5E9EB326AC049F00AE4F20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EB226AC049F00AE4F20 /* main.m */; };
 		FA5E9EBD26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EBC26AC049F00AE4F20 /* ContactsFirebaseApp1Tests.m */; };
 		FA5E9EC826AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EC726AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m */; };
-		FA5E9ED626AC090B00AE4F20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5E9ED526AC090B00AE4F20 /* GoogleService-Info.plist */; };
 		FA5E9ED926AC141300AE4F20 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9ED826AC141300AE4F20 /* Contact.m */; };
 		FA5E9EDC26AC1F0300AE4F20 /* FirestoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E9EDB26AC1F0300AE4F20 /* FirestoreService.m */; };
 		FAB482EB26AD2DC5009E955B /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB482EA26AD2DC5009E955B /* ContactsTableViewController.m */; };
 		FAB482EE26AD7FDD009E955B /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB482ED26AD7FDD009E955B /* ContactTableViewCell.m */; };
+		FAF3646B27F5D2590015C3E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAF3646A27F5D2590015C3E3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 		FA5E9EC326AC049F00AE4F20 /* ContactsFirebaseApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsFirebaseApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5E9EC726AC049F00AE4F20 /* ContactsFirebaseApp1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsFirebaseApp1UITests.m; sourceTree = "<group>"; };
 		FA5E9EC926AC049F00AE4F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5E9ED526AC090B00AE4F20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../new/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA5E9ED726AC141300AE4F20 /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		FA5E9ED826AC141300AE4F20 /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		FA5E9EDA26AC1F0300AE4F20 /* FirestoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirestoreService.h; sourceTree = "<group>"; };
@@ -76,6 +75,7 @@
 		FAB482EA26AD2DC5009E955B /* ContactsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
 		FAB482EC26AD7FDD009E955B /* ContactTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
 		FAB482ED26AD7FDD009E955B /* ContactTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		FAF3646A27F5D2590015C3E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE3C5532B366DBA8D87FD81C /* Pods_ContactsFirebaseApp1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsFirebaseApp1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,7 +155,7 @@
 		FA5E9E9F26AC049E00AE4F20 /* ContactsFirebaseApp1 */ = {
 			isa = PBXGroup;
 			children = (
-				FA5E9ED526AC090B00AE4F20 /* GoogleService-Info.plist */,
+				FAF3646A27F5D2590015C3E3 /* GoogleService-Info.plist */,
 				FA5E9EA026AC049E00AE4F20 /* AppDelegate.h */,
 				FA5E9EA126AC049E00AE4F20 /* AppDelegate.m */,
 				FA5E9EA326AC049E00AE4F20 /* SceneDelegate.h */,
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA5E9EB026AC049F00AE4F20 /* LaunchScreen.storyboard in Resources */,
-				FA5E9ED626AC090B00AE4F20 /* GoogleService-Info.plist in Resources */,
+				FAF3646B27F5D2590015C3E3 /* GoogleService-Info.plist in Resources */,
 				FA5E9EAD26AC049F00AE4F20 /* Assets.xcassets in Resources */,
 				FA5E9EAB26AC049E00AE4F20 /* Main.storyboard in Resources */,
 			);

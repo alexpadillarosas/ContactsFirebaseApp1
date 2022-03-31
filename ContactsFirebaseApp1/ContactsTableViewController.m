@@ -101,6 +101,7 @@
     
     [[cell nameLabel] setText:[contactDictionary objectForKey:@"name"]];
     [[cell positionLabel] setText:[contactDictionary objectForKey:@"position"]];
+    [[cell photoImageView] setImage:[UIImage imageNamed:[contactDictionary objectForKey:@"photo"]]];
     
     return cell;
 }

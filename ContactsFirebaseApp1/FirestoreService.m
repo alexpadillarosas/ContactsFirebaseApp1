@@ -162,35 +162,7 @@
     }];
 }
 
-/**
-        Returns all Contact Documents from the database in an NSMutable array passed in a complete block
- */
-/*
--(void) findAll: (void(^)(NSMutableArray *)) completeBlock{
-    
-    [[[self firestore] collectionWithPath:@"Contacts"] getDocumentsWithCompletion:^(FIRQuerySnapshot * _Nullable snapshot, NSError * _Nullable error) {
-        
-        if(error != nil){
-            NSLog(@"there is no data");
-        }else{
-            NSLog(@"Found %li documents in the db", [snapshot count]);
-            if(completeBlock){
-                //FIRDocumentSnapshot *document = snapshot.documents.firstObject;
-                NSMutableArray *contactsArray = [NSMutableArray new];
-                for (FIRDocumentSnapshot *document in [snapshot documents]) {
-                    NSLog(@"DocumentId: %@", [document documentID]);
-                    NSDictionary *myContacts = [document data];
-                    NSLog(@"contact: %@", myContacts);
-                    Contact* contact = [[Contact alloc] initWithDictionary:myContacts];
-                    [contactsArray addObject:contact];
-                }
-                completeBlock(contactsArray);
-            }
-        }
-        
-    }];
-}
-*/
+
 
 /**
  * Reads Documents from a collection referred to by this `FirestoreService`. If no documents exists, it
@@ -223,26 +195,7 @@
     }];
 }
 
-/*
- 
- [[self.firestore collectionWithPath:@"Contacts"] addSnapshotListener:^(FIRQuerySnapshot * _Nullable snapshot, NSError * _Nullable error) {
-     if (snapshot == nil) {
-         NSLog(@"Error fetching document: %@", error);
-         
-     }else{
-         NSLog(@"Current data: %@", [snapshot documents]);
-         for (FIRQueryDocumentSnapshot* snap in [snapshot documents]) {
-             NSDictionary *contactDataDictionary = [snap data];
-             NSString *contactId = [snap documentID];
-             
-             [ [self contactsDictionary] setObject:contactDataDictionary forKey:contactId];
-         }
-         NSLog(@"Dict %@", [self contactsDictionary]);
-         [[self contactsTableView] reloadData];
-     }
- }];
- 
- */
+
  
 
 @end
